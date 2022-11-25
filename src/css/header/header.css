@@ -1,0 +1,35 @@
+.container-fluid {
+    background: #3FA576;
+}
+.row {
+    margin: 0;
+}
+.container {
+    padding: 70px 0;
+}
+
+/* Barra de navegacao  */
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 200px;
+}
+.nav-link {
+    font-size: 16px;
+    padding: 0;
+    color: #000;
+}
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.563);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+@media (max-width: 768px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: .8rem 3rem;
+    }
+}
